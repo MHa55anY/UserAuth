@@ -1,0 +1,27 @@
+<div class="header">
+    <h1>OTP Verification</h1>
+  </div>
+  
+  <form action="/login/verify/result" method='POST'  class='loginForm'>
+      <div class="form-group" id='otp-group'>
+        <label for="email">OTP</label>
+        <input 
+          type="text" 
+          class="form-control" 
+          id="otp" 
+          name="otp"
+          aria-describedby="emailHelp" 
+          placeholder="Enter OTP" 
+        />
+        <small id="otpHelp" class="form-text text-muted">Please enter the OTP received on your mail</small>
+      </div>
+      
+      <div class="button">
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </div>
+    
+      
+  </form>
+
+
+  

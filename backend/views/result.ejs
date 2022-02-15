@@ -1,0 +1,11 @@
+<div class="result">
+    <% if (status) { %>
+        <h1>Please log out other user..</h1>
+
+        <form action="/logout" method="post">
+            <button type="submit" class="btn btn-primary btn block">Log Out</button>
+        </form>
+    <% } else{ %>
+        <h1>Thank you for logging in!</h1>
+    <% }%>
+</div>
